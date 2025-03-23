@@ -4,21 +4,21 @@
 :root {
   --header-height: 3rem;
   /*========== Colors ==========*/
-  /* Change favorite color */
-  --hue-color: 30; /* Base hue for brown */
+  /* Updated brown theme */
+  --hue-color: 24; /* Adjusted hue for a more earthy brown tone */
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 40%, 50%); /* Warm brown */
-  --first-color-second: hsl(var(--hue-color), 40%, 50%);
-  --first-color-alt: hsl(var(--hue-color), 35%, 40%); /* Deeper brown for accents */
-  --first-color-lighter: hsl(var(--hue-color), 50%, 70%); /* Softer brown for highlights */
-  --title-color: hsl(30, 20%, 20%); /* Deep brown for titles */
-  --text-color: hsl(30, 15%, 35%); /* Warm earthy brown for text */
-  --text-color-light: hsl(30, 15%, 50%); /* Slightly lighter brown */
-  --input-color: hsl(30, 40%, 90%); /* Pale beige for input fields */
-  --body-color: hsl(30, 40%, 95%); /* Light cream for background */
-  --container-color: hsl(30, 30%, 98%); /* Subtle off-white for containers */
-  --scroll-bar-color: hsl(30, 20%, 85%); /* Light brown scrollbar */
-  --scroll-thumb-color: hsl(30, 25%, 65%); /* Deeper brown for scrollbar thumb */
+  --first-color: hsl(var(--hue-color), 50%, 45%); /* Warm caramel brown */
+  --first-color-second: hsl(var(--hue-color), 50%, 45%);
+  --first-color-alt: hsl(var(--hue-color), 45%, 35%); /* Deeper chocolate brown for accents */
+  --first-color-lighter: hsl(var(--hue-color), 60%, 70%); /* Light beige-brown for highlights */
+  --title-color: hsl(24, 25%, 20%); /* Rich dark brown for titles */
+  --text-color: hsl(24, 20%, 40%); /* Medium brown for text */
+  --text-color-light: hsl(24, 20%, 55%); /* Soft tan for lighter text */
+  --input-color: hsl(24, 60%, 90%); /* Very light beige for input fields */
+  --body-color: hsl(24, 50%, 95%); /* Creamy beige for the background */
+  --container-color: hsl(24, 40%, 98%); /* Subtle ivory for containers */
+  --scroll-bar-color: hsl(24, 30%, 85%); /* Soft taupe scrollbar */
+  --scroll-thumb-color: hsl(24, 35%, 65%); /* Medium brown thumb */
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -61,14 +61,14 @@
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   /* HSL color mode */
-  --first-color-second: hsl(30, 20%, 10%); /* Deep chocolate brown */
-  --title-color: hsl(30, 10%, 95%);
-  --text-color: hsl(30, 10%, 75%);
-  --input-color: hsl(30, 30%, 20%);
-  --body-color: hsl(30, 30%, 15%);
-  --container-color: hsl(30, 30%, 20%);
-  --scroll-bar-color: hsl(30, 15%, 48%);
-  --scroll-thumb-color: hsl(30, 15%, 36%);
+  --first-color-second: hsl(24, 20%, 10%); /* Deep espresso brown */
+  --title-color: hsl(24, 15%, 90%);
+  --text-color: hsl(24, 15%, 70%);
+  --input-color: hsl(24, 30%, 20%);
+  --body-color: hsl(24, 25%, 15%);
+  --container-color: hsl(24, 25%, 20%);
+  --scroll-bar-color: hsl(24, 15%, 50%);
+  --scroll-thumb-color: hsl(24, 15%, 35%);
 }
 
 /*========== Button Dark/Light ==========*/
